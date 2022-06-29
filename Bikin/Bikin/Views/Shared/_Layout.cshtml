@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light py-2" id="navbar-sec">
+            <div class="container">
+                <a class="navbar-brand col-md-3 fs-2 nav-brand" href="#">Bikin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-md-6 d-flex justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-none d-lg-flex mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <a class="btn btn-light text-primary navbar-btn rounded-3" type="submit">Get Strated</a>
+
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </nav>
+
+        <section id="header" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center flex-column">
+                        <h1 class="text-center header-title mb-2 display-4">Build Better Websites With Bikin</h1>
+                        <h3 class="text-center header-subtitle mb-4">
+                            We are team of talented designers making websites
+                            with Bootstrap
+                        </h3>
+                        <a class="btn btn-light text-white px-5 py-2 fs-6 header-btn rounded-3 mx-auto"
+                           type="submit">Get Strated</a>
+                        <div class="header-img col-md-12 d-flex justify-content-center">
+                            <img src="./assets/images/hero-img (1).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    @RenderBody()
+
+    <footer id="footer">
+        <div class="container-fluid shadow-sm">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="fw-normal">Bikin</h2>
+                        <p class="fw-light text-secondary m-0">A108 Adam Street</p>
+                        <p class="fw-light text-secondary m-0">New York, NY 535022</p>
+                        <p class="fw-light text-secondary mb-3">United States</p>
+                        <p class="fw-light text-secondary m-0"><strong>Phone:</strong> +1 5589 55488 55</p>
+                        <p class="fw-light text-secondary m-0"><strong>Email:</strong> info@example.com</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="fw-bold text-secondary">Useful Links</h5>
+                        <ul class="footer-list">
+                            <li class="footer-list-item mb-2">
+                                <a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-angle-right"></i> Home</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> About us</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> Services</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> Terms of service</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="fw-bold text-secondary">Our Services</h5>
+                        <ul class="footer-list">
+                            <li class="footer-list-item mb-2">
+                                <a class="text-decoration-none text-dark" href="#"><i class="fa-solid fa-angle-right"></i> Home</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> About us</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> Services</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> Terms of service</a>
+                            </li>
+                            <li class="footer-list-item mb-2">
+                                <a href="#" class="text-decoration-none text-dark"><i class="fa-solid fa-angle-right"></i> Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Join Our NewsLetter</h5>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form>
+                            <!-- Email input -->
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control border-primary" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">Subscribe</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid copy-right py-2">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <p class="m-0">© Copyright Bikin. All Rights Reserved</p>
+                        <p class="m-0">Designed by BootstrapMade</p>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <ul class="footer-social-list">
+                            <li class="footer-social-list-item bg-light rounded me-1"><i class="fa-brands fa-twitter"></i></li>
+                            <li class="footer-social-list-item bg-light rounded me-1"><i class="fa-brands fa-twitter"></i></li>
+                            <li class="footer-social-list-item bg-light rounded me-1"><i class="fa-brands fa-twitter"></i></li>
+                            <li class="footer-social-list-item bg-light rounded me-1"><i class="fa-brands fa-twitter"></i></li>
+                            <li class="footer-social-list-item bg-light rounded me-1"><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
